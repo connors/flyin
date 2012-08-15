@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Flyin example page</title>
+    <link rel="shortcut icon" type="image/ico" href="/images/favicon.ico">
+
+    <!-- CSS -->
+    <link href="/css/example.css" media="screen" rel="stylesheet" type="text/css">
+
+    <!-- Javascript -->
+    <script src="/js/jquery.js"></script>
+    <script src="/js/flyin.js"></script>
+
+    <!-- Flyin -->
+    <script>
+    $(window).load(function() {
+      $('.red-square').flyin({
+        direction : 'right'
+      });
+    });
+    </script>
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="red-square"></div>
+    </div>
+  </body>
+</html>
+
+

@@ -1,0 +1,13 @@
+.wrapper {
+	position: relative;
+	height: 2000px
+}
+
+.red-square {
+	position: relative;
+	top: 1200px;
+	width: 200px;
+	height: 200px;
+	margin-left: 500px;
+	background-color: red;
+}
